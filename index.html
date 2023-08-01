@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2>Índice</h2>    
+    <ul>
+        <li><a href="#estrutura">Estrutura Básica do HTML</a></li>
+        <li><a href="#oquesaotags">O que são Tags?</a></li>
+        <li><a href="#atributostags">O que são os atributos das Tags?</a></li>
+        <li><a href="#lista">Listas Ordenadas e Não Ordenadas</a></li>
+        <li><a href="#link">Link</a></li>
+        <li><a href="#link">Links de referências</a></li>        
+    </ul>
+    <hr />
+
+    <h2 id="estrutura">Estrutura Básica do HTML</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        Uma estrutura básica de HTML é o esqueleto fundamental de uma página da web. Ela consiste
+        em elementos essenciais que ajudam a organizar e exibir o conteúdo de forma adequada no navegador.
+    </br>
+        Aqui está um resumo dos principais componentes da estrutura básica de HTML:</br>
+    </p>
+
+    <ol>
+        <li>
+            Tag <strong>< !DOCTYPE html ></strong>: Indica a versão do HTML utilizada na página.
+        </li>
+        <li>
+            Tag <strong>< html ></strong>: Delimita o início e o fim do documento HTML.
+        </li>
+        <li>
+            Tag <strong>< head ></strong>: Contém informações sobre o documento, como metadados, 
+            títulos, links para arquivos externos (CSS, JavaScript, ícones) e outros elementos que 
+            não são visíveis ao usuário.
+        </li>
+        <li>
+            Tag <strong>< meta charset="UTF-8 ></strong>:  Define o conjunto de caracteres utilizado 
+            no documento, geralmente definido como UTF-8 para suportar caracteres internacionais.
+        </li>
+        <li>
+            Tag <strong>< title ></strong>:  Define o título da página que será exibido na aba do 
+            navegador ou na janela do navegador.
+        </li>
+        <li>
+            Tag <strong>< body ></strong>: Contém todo o conteúdo visível da página, como texto, 
+            imagens, links, elementos multimídia, formulários, etc.
+        </li>
+        <li>
+            Outras tags: Dentro do <strong>< body ></strong>, você usará diversas outras tags HTML 
+            para estruturar e formatar o conteúdo, tais como:
+            <ul>
+                <li>
+                    Títulos: < h1 >, < h2 >, < h3 >, < h4 >, < h5 >, < h6 >
+                </li>
+                <li>
+                    Parágrafos: < p >
+                </li>
+                <li>
+                    Imagens: < img >
+                </li>
+                <li>
+                    Links: < a >
+                </li>
+                <li>
+                    Listas: < ul >, < ol >, < li >                 
+                </li>
+                <li>
+                    Tabelas: < table >, < tr >, < td >                        
+                </li>
+                <li>
+                    Formulários: < form >, < input >, < textarea >, etc.
+                </li>                
+            </ul>
+        </li>
+    </ol>
+    <p>
+        Essa estrutura básica forma o alicerce de qualquer página web, permitindo que os navegadores interpretem 
+        e exibam o conteúdo corretamente aos usuários. Combinando esses elementos com CSS</br> (folhas de estilo) e 
+        JavaScript (linguagem de programação) é possível criar páginas web ricas e interativas.
+    </p>
+    <hr />
+
+     <h2 id="oquesaotags">O que são Tags?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        Tags em HTML (HyperText Markup Language) são elementos especiais utilizados para marcar e estruturar o conteúdo
+        de uma página web. Elas fornecem instruções ao navegador sobre como exibir </br>o conteúdo e definir sua apresentação
+        na página. As tags são compostas por palavras-chave envoltas por colchetes angulares ("<" e ">").
+    </p>
+    <p>
+        Cada tag pode ter um propósito específico e pode conter atributos que modificam o comportamento ou a aparência do elemento. 
+        As tags podem ser usadas para inserir texto, imagens, links, tabelas, </br>formulários e outros elementos que compõem a página.
+    </p>
+    <p>
+        As tags são fundamentais para a estruturação e a formatação correta de uma página web e permitem que os navegadores interpretem 
+        o conteúdo e o apresentem adequadamente aos usuários. O uso </br>correto e semântico das tags é essencial para criar páginas 
+        acessíveis e bem organizadas.
+    </p>
+    <p>
+        Fora as tags já vistas no capitulo anterior, existem também:
+    </p>
+    <ul>
+        <li>
+            Tag < mark > é usada para destacar ou marcar partes do texto dentro de um parágrafo ou bloco de texto.</br>
+            Exemplo: <mark>Usando a tag < mark >.</mark> 
+        </li>
+        <li>
+            Tag < small > é usada para definir um texto que deve ser apresentado em tamanho de fonte menor do que o texto circundante.</br>
+            Exemplo: <small>Usando a tag < small >.</small> 
+        </li>
+        <li>
+            Tag < i > é usada para definir texto que deve ser exibido em itálico. </br>
+            Exemplo: <i>Usando a tag < i ></i>.</i>
+        </li>
+        <li>
+            Tag < u > é usada para definir texto que deve ser sublinhado.</br>
+            Exemplo: <u>Usando a tag < u >.</u> 
+        </li>
+        <li>
+            Tag < strong > é usada para definir texto que deve ser exibido em negrito.</br>
+            Exemplo: <strong>Usando a tag < strong >.</strong> 
+        </li>
+    </ul>
+    <p>Entre várias outras tags que existem.</p>
+    <hr />
+
+    <h2 id="atributostags">O que são os atributos das Tags?</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        Os atributos são elementos adicionais usados em tags HTML para fornecer informações extras
+        ou configurações específicas para essas tags. Eles são utilizados para modificar o comportamento</br>
+        ou a aparência dos elementos, personalizando a forma como eles são exibidos na página ou fornecendo 
+        informações adicionais para processamento pelos navegadores ou outras tecnologias.
+    </p>
+    <p>
+        Existem muitos atributos diferentes em HTML, como <strong><i>href</i></strong>, <strong><i></i>class</strong>, 
+        <strong><i>style</i></strong>, <strong><i>target</i></strong>, <strong><i>disabled</i></strong>, <strong><i>placeholder</i></strong>, 
+        <strong><i>required</i></strong>, entre outros, e cada um deles tem uma finalidade específica de acordo com a tag </br>em que são usados. 
+        O uso adequado dos atributos é essencial para garantir a estruturação correta e a acessibilidade das páginas da web.
+    </p>
+    <hr />
+
+    <h2 id="lista">Listas Ordenadas e Não Ordenadas</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        Listas ordenadas e listas não ordenadas são dois tipos de listas HTML que permitem agrupar e exibir itens relacionados em uma sequência 
+        específica ou não específica.
+    </p>
+    <p>
+        Uma lista ordenada  (<strong><i>< ol ></i></strong>) é uma lista de itens que são organizados em uma sequência numérica ou alfabética. Cada item da lista é representado 
+        por uma tag <strong><i>< li ></i></strong> (item da lista) e, por padrão, é exibido <br/>com um marcador numérico (1, 2, 3, etc.) ou 
+        alfabético (a, b, c, etc.) ao lado do texto do item.
+    </p>
+    <p>
+        Uma lista não ordenada (<strong><i>< ul ></i></strong>) é uma lista de itens que não segue uma sequência numérica ou alfabética específica. Cada item da lista também é 
+        representado por uma tag <strong><i>< li ></i></strong> e, por padrão, é exibido <br/>com um marcador de ponto (•), mas a aparência pode
+        variar dependendo do navegador ou das folhas de estilo (CSS) aplicadas.
+    </p>
+    <p>
+        Ambos os tipos de listas (<strong><i>< ol ></i></strong> e <strong><i>< ul ></i></strong>) são amplamente usados em páginas da web para organizar informações, criar menus, listas de itens, entre outras situações em que a apresentação
+        em forma de <br/>lista é adequada. O conteúdo dentro de cada <strong><i>< li ></i></strong> pode conter qualquer estrutura HTML desejada, permitindo a inclusão de imagens, links, parágrafos e outros elementos.
+    </p>
+    <hr />
+
+    <h2 id="link">Links</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>
+        Links, também conhecidos como hyperlinks ou simplesmente "links", são elementos fundamentais em páginas da web que permitem a 
+        navegação entre diferentes recursos ou páginas na internet. <br/>Eles permitem que os usuários cliquem em um texto ou em uma imagem 
+        para serem redirecionados para outra página, documento, imagem, vídeo, ou qualquer outro tipo de recurso online.
+    </p>
+    <p>
+        Os links são criados usando a tag <strong><i>< a ></i></strong> em HTML, que possui um atributo href que especifica o destino do link, ou seja, a URL do 
+        recurso que será acessado quando o link for clicado.
+    </p>
+    <p>
+        Os links são essenciais para a navegação na web, pois permitem que os usuários explorem e acessem diferentes páginas e recursos 
+        sem ter que digitar manualmente as URLs completas.  <br/>Eles também são usados para conectar diferentes páginas em um site, criar menus 
+        de navegação e fornecer acesso rápido a informações relevantes.
+    </p>
+    <hr />
+
+    <h2 id="referencia">Links de referências</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <ul>
+        <li>
+            <a href="https://web.dio.me/track/formacao-html-web-developer" target="_blank">Curso: Formação HTML Web Developer</a>
+        </li>
+        <li>
+            <a href="https://www.w3.org/TR/2012/WD-html-markup-20121025/elements.html" target="_blank">Elementos HTML</a>
+        </li>
+    </ul>  
+
+</body>
+</html>
